@@ -1,21 +1,18 @@
-# Crossword Explorer
+# Crossworld Explorer v0.3
 
-An experimental, browser-based crossword exploration roguelite created with WhiteRabbitGeometry.
+*In the beginning was the Word. But times have changed.*
 
-## Play
-
-Open `index.html` in a browser. No build tools, account, API keys, or backend are required.
+A single-player, self-contained, browser-based crossword roguelite built with WhiteRabbitGeometry.
 
 
-## Core mechanics
--Explore themed word cluster rooms in a randomly generated arrangement. New rooms are hidden until visited.
-- Each room contains an intersecting crossword. Select a clue or grid axis, type answer and submit with Enter.
-- Correct letters lock permanently. Each incorrect letter costs one HP after protections. You start with 100 HP.
-- Completing a passage word opens neighboring exits. 
-- Browser localStorage holds permanent mastery/trinkets and the current run separately.
+## Rules
 
-This is a playable early prototype; the dictionary is curated and the room generator recombines themed anchor words and crossings. It does **not** yet procedurally generate an unlimited vocabulary, different map silhouettes, or full visual endgame images.
+- Start with **20 HP** and a single revealed **U** in the Gatehouse.
+- Only words intersecting a permanently confirmed letter can be submitted.
+- Each wrong letter costs 1 HP. A perfect first submission restores HP to maximum.
 
-## License
+## Status and limits
 
-Copyright © 2026 WhiteRabbitGeometry / Benjamin Jason Ortlip. All rights reserved. See LICENSE.
+This is a playable campaign prototype. 
+
+Copyright © 2026 WhiteRabbitGeometry / Benjamin Jason Ortlip. See LICENSE.
